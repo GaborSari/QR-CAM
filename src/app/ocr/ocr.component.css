@@ -1,0 +1,25 @@
+#webcam::ng-deep *{
+    height: 100%;
+    width: 100%;
+}
+#webcam {
+    z-index: 1;
+}
+#webcam-actions {
+    display: flex;
+    width: 100%;
+
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+
+    justify-content: center;
+}
+#switch {
+    position: absolute;
+    right: 0;       
+}
+#webcam-container {
+    min-height: 0;
+    position: relative;
+}

@@ -1,0 +1,12 @@
+<div style="height: 50vh;width: 85vw;margin: auto; ">
+    <div class="d-flex flex-column align-items-center" style="height: 100%;position: relative;">
+        <span class="error" *ngIf="initError" translate>
+            errors.camera-init
+        </span>
+        <div id="webcam" #webcam>
+        </div>
+    </div>
+</div>
+<img src="assets/switch.png" (click)="switchCamera()" alt="Switch camera" width="64" *ngIf="cameraDevices.length > 0">
+
+<textarea >{{debug}}</textarea>

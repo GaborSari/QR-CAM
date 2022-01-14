@@ -1,0 +1,15 @@
+#webcam {
+    flex-grow: 1;
+    min-height: 0;
+    width: 100%;
+}
+
+#webcam::ng-deep video{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+#webcam::ng-deep canvas{
+    height: 100% !important;
+    width: 100% !important;
+}
